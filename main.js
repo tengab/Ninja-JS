@@ -1,6 +1,11 @@
-var a = 7;
+var a = "7";
 var b = 5;
 
-console.log(a + b);
+if (isNaN(a)){
 
-console.log(Math.PI);
+    console.log("that aint even a number")
+
+} else {
+
+    console.log("meaning of life is " + (a * b));
+}
